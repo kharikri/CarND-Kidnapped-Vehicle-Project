@@ -8,7 +8,7 @@ This assumes [Linux Bash Shell](https://www.howtogeek.com/249966/how-to-install-
 3. sudo apt-get install cmake
 4. sudo apt-get install openssl
 5. sudo apt-get install libssl-dev
-6. git clone <https://github.com/udacity/CarND-Kidnapped-Vehicle-Project> or whatever CarND project
+6. git clone <<https://github.com/udacity/CarND-Kidnapped-Vehicle-Project>> or whatever CarND project
 7. sudo rm /usr/lib/libuWS.so 
 8. cd to wherever your CarND-Kidnapped-Vehicle-Project/ is
 9. ./install-ubuntu.sh
