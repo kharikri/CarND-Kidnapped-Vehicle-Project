@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the third project in the second term of the Self Driving Car Nanodegree course offered by Udacity. In this project, I implemented a particle filter to localize a vehicle. The initial co-ordinates of the vehicle are given by the GPS data. However, the GPS sensor data is accurate between 1m to 10m. To localize an autonomous vehicle we need centimeter level accuracy. This is achieved through particle filters.
+This is the third project in the second term of the Self Driving Car Nanodegree course offered by Udacity. In this project, I implemented a particle filter to localize a vehicle. The initial co-ordinates of the vehicle are given by the GPS data. However, the GPS sensor data is only accurate between 1m to 10m. To localize an autonomous vehicle we need centimeter level accuracy. This is achieved through particle filters.
 
 In this project I implemented a two dimensional particle filter in C++. The inputs to the particle filter are a map of the environment where the vehicle is stranded, some initial GPS information, sensor observation data of the environment and control data (x, y, and velocity of the vehicle) at each time step.
 
