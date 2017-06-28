@@ -28,6 +28,6 @@ Step 9 may fail for number of reasons as listed below:
 		* sudo apt-get install libuv1.dev		
 3. May complain about the version of cmake you have. You need a version greater than 3.0. [Here](https://askubuntu.com/questions/355565/how-to-install-latest-cmake-version-in-linux-ubuntu-from-command-line) is a link which describes how to get version 3.8. Look at Teocci's response in this link
 4. Installing cmake requires g++ compiler. Install a g++ version 4.9 or greater. Here are the steps:
-	sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-	sudo apt-get update
-	sudo apt-get install g++-4.9
+	* sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+	* sudo apt-get update
+	* sudo apt-get install g++-4.9
