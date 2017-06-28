@@ -1,18 +1,15 @@
-# Overview
-This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
+# Localization of a Vehicle 
 
-#### Submission
-All you will submit is your completed version of `particle_filter.cpp`, which is located in the `src` directory. You should probably do a `git pull` before submitting to verify that your project passes the most up-to-date version of the grading code (there are some parameters in `src/main.cpp` which govern the requirements on accuracy and run time.)
+## Introduction
 
-## Project Introduction
-Your robot has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
+This is the third project in the second term of the Self Driving Car Nanodegree course offered by Udacity. In this project, I implemented a particle filter to localize a vehicle. The initial co-ordinates of the vehicle are given by the GPS data. However, the GPS sensor data is accurate between 1m to 10m. To localize an autonomous vehicle we need centimeter level accuracy. This is achieved through particle filters.
 
-In this project you will implement a 2 dimensional particle filter in C++. Your particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step your filter will also get observation and control data. 
+In this project I implemented a two dimensional particle filter in C++. The inputs to the particle filter are a map of the environment where the vehicle is stranded, some initial GPS information, sensor observation data of the environment and control data (x, y, and velocity of the vehicle) at each time step.
 
 ## Running the Code
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
-This repository includes two files that can be used to set up and intall uWebSocketIO for either Linux or Mac systems. For windows you can use either Docker, VMware, or even Windows 10 Bash on Ubuntu to install uWebSocketIO.
+Installing uWebSocketIO for Windows 10 was tedious. [Here](https://github.com/kharikri/CarND-Kidnapped-Vehicle-Project/blob/master/WebSocketInstallation.md) are the steps I went through for websocket installation.
 
 Once the install for uWebSocketIO is complete, the main program can be built and ran by doing the following from the project top directory.
 
