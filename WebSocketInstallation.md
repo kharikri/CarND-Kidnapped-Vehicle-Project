@@ -18,6 +18,7 @@ Step 9 may fail for number of reasons as listed below:
 A. install-ubuntu.sh has only rw but no x permission. Run "chmod +x install-ubuntu.sh" to give execution permission  
 
 B. Cannot find the package "libuv1-dev"  
+
 	* To install the package run "sudo apt-get install libuv1.dev"
 	* If you still cannot install the package run the following to get the package and install it:  
 		sudo add-apt-repository ppa:acooks/libwebsockets6  
