@@ -19,10 +19,6 @@ cmake ..
 make  
 ./particle_filter (Make sure you also run the simulator on Windows machine)  
 
-Note that the programs that need to be written to accomplish the project are src/particle_filter.cpp, and particle_filter.h
-
-The program main.cpp has already been filled out, but feel free to modify it.
-
 Here is the main protcol that main.cpp uses for uWebSocketIO in communicating with the simulator.
 
 INPUT: values provided by the simulator to the c++ program
@@ -69,13 +65,6 @@ OUTPUT: values provided by the c++ program to the simulator
 ["best_particle_sense_x"] <= list of sensed x positions
 
 ["best_particle_sense_y"] <= list of sensed y positions
-
-
-Your job is to build out the methods in `particle_filter.cpp` until the simulator output says:
-
-```
-Success! Your particle filter passed!
-```
 
 # Implementing the Particle Filter
 The directory structure of this repository is as follows:
