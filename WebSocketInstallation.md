@@ -16,13 +16,16 @@ This assumes [Linux Bash Shell](https://www.howtogeek.com/249966/how-to-install-
 Step 9 may fail for number of reasons as listed below:
 
 A. install-ubuntu.sh has only rw but no x permission. Run "chmod +x install-ubuntu.sh" to give execution permission  
+
 B. Cannot find the package "libuv1-dev"  
 	* To install the package run "sudo apt-get install libuv1.dev"
 	* If you still cannot install the package run the following to get the package and install it:  
 		sudo add-apt-repository ppa:acooks/libwebsockets6  
 		sudo apt-get update  
 		sudo apt-get install libuv1.dev  
+		
 C. May complain about the version of cmake you have. You need a version greater than 3.0. [Here](https://askubuntu.com/questions/355565/how-to-install-latest-cmake-version-in-linux-ubuntu-from-command-line) is a link which describes how to get version 3.8. Look at Teocci's response in this link  
+
 D. Installing cmake requires g++ compiler. Install a g++ version 4.9 or greater. Here are the steps:  
 	sudo add-apt-repository ppa:ubuntu-toolchain-r/test  
 	sudo apt-get update  
