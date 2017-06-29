@@ -13,11 +13,11 @@ Installing uWebSocketIO for Windows 10 was tedious. [Here](https://github.com/kh
 
 Once the install for uWebSocketIO is complete, the main program can be built and ran by doing the following from the project top directory.
 
-mkdir build
-cd build
-cmake ..
-make
-./particle_filter
+mkdir build  
+cd build  
+cmake ..  
+make  
+./particle_filter (Make sure you also run the simulator on Windows machine)  
 
 Note that the programs that need to be written to accomplish the project are src/particle_filter.cpp, and particle_filter.h
 
