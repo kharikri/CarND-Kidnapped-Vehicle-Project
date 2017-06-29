@@ -12,9 +12,6 @@ This assumes [Linux Bash Shell](https://www.howtogeek.com/249966/how-to-install-
 7. sudo rm /usr/lib/libuWS.so 
 8. cd to wherever your CarND-Kidnapped-Vehicle-Project/ is
 9. ./install-ubuntu.sh
-10. mkdir build && cd build
-11. cmake .. && make
-12. ./particle_filter (Make sure you also run the simulator on Windows machine)
 
 Step 9 may fail for number of reasons as listed below:
 
